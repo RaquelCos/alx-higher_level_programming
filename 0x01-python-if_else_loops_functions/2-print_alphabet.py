@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 """Prints ASCII alphabet, in lowercase, not followed by a new line"""
 
-for alpha range(97,123):
+for alpha in range(97, 123):
     print("{}".format(char(alpha)), end="")
