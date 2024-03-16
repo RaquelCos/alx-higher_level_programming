@@ -2,4 +2,4 @@
 """Prints ASCII alphabet, in lowercase, not followed by a new line"""
 
 for alpha in range(97, 123):
-    print("{}".format(char(alpha)), end="")
+    print("{}".format(chr(alpha)), end="")
